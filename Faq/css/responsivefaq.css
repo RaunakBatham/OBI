@@ -1,0 +1,241 @@
+@media screen and (max-width: 1100px){
+     
+	.h1 ,.h2,.h3,.h4{
+	margin: 0px 0 0 1px;
+	width: 49.75%;
+	float: left;
+	height: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.h1 ,.h2{
+	margin-top: 100px;
+}
+.h1 img,.h2 img,.h3 img,.h4 img{
+	height: 400px;
+}
+.Help-box .cover{
+	font-size: 25px;
+	width: 49.75%;
+	height: 400px;
+	font-size: 30px;
+	padding-top: 150px;
+	
+}
+}
+@media screen and (max-width:600px) {
+#back{
+	background-size: 600% 100%; 
+}
+#title-box h1{
+	left: 50%;
+	margin-left: -50px;
+}
+#title-box #pagination{
+    /* height: 0px; */
+    bottom: 20px;
+    line-height: 0px;
+    margin-left: -50px;
+    left: 50%;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: .8em;
+}
+.section h1{
+	left: 50%;
+	margin-left: -120px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.leftline{
+	position: relative;float: left;left: 10%; width:50px;border-bottom: 2px solid #29d9c2; display: inline-block;margin-top: 60px;
+}
+.rightline{
+	position: relative;float: left;left:53%; width:50px;border-bottom: 2px solid #29d9c2; display: inline-block;margin-top: 60px;
+}
+#main-para{
+	width: 90%;
+	line-height: 20px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.section #topic-menu{
+ width: 95%;
+ left: 2.5%;
+ right: 2.5%;
+ padding: 0px 50px;
+ height: auto;
+}
+.section .topic-option1,.topic-option2,.topic-option3{
+	float: none;
+	width: 100%;
+}
+.topic-content {
+	margin-top: 50px;
+	width: 95%;
+	position: relative;
+	left: 2.5%;
+	right: 2.5%;
+	height:auto;
+}
+.topic-content #leftpart{
+	float: none;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 14px;
+}
+#leftpart p{
+	margin-right:5px; 
+	margin-left: 5px;
+	color: grey;
+	word-spacing: 2px;
+	line-height: 22px;
+
+}
+#leftpart ul{
+	margin-top: 20px;
+	color: grey;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.soft, .infra{
+	display: none;
+}
+
+#leftpart ul li{
+	margin-top: 10px;
+}
+.topic-content img{
+	float: none;
+	width: 100%;
+	height: 250px; 
+}
+.Help-box{
+	margin: 100px 0 0 1px;
+	width: 100%;
+	float: none;
+	height: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.Help-box .cover{
+	font-size: 25px;
+	width: 100%;
+}
+.Help-box .cover h3{
+	font-size: 22px;
+	margin-top: 10px;
+	margin-top: 30px;
+	font-weight: 100;
+}
+#questions-box{
+	left: 5%;
+	right: 5%;
+	width: 90%;
+}
+#questions-box .box1,.box2,.box3,.box4,.box5
+,.box6,.box7{
+	padding-left: 25px;
+}
+#contact2{
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+.contact2-content{
+	position: relative;
+	left: 0%;
+	right: 0%;
+	float: none;
+	width: 100%;
+	height: 200px;
+}
+#map,#contact-form{
+	width: 100%;
+	height: 600px;
+	float: none;
+	margin-top: 0px;
+}
+.contact-form-box{
+	width:100%; 
+	height: 550px;
+	position: absolute;
+}
+#line2{
+	display: none;
+}
+#contact-form h3{
+	font-size: 45px;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+#contact-form p{
+	font-size: 15px;
+	color: grey;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#contact-form form{
+	margin-top: 30px;
+	margin-left:10px;
+}
+#contact-form input,#contact-form textarea{
+	width: 250px;
+}
+#contact-form button{
+   
+   margin-top: 0px;
+   
+}
+#social{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	background-color: #29d9c2;
+	color: black;
+	box-sizing: border-box;
+}
+
+#social h3{
+	top: 30px;
+    margin-left: -50px;
+     left: 50%; 
+	font-size:30px;
+}
+#social ul{
+	list-style-type: none;
+	margin-top: 40px;
+	 margin-left: -130px;
+     position: relative;
+     left: 50%; 
+}
+
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	line-height: 100px;
+}
+#footer ul{
+	position: relative;
+	height: 60px;
+	padding: 20px 0;
+	left: 0%;
+
+	margin-left:0px;
+	font-size: 17px;
+	text-align: center;
+
+}
+#footer ul li{
+	float: none;
+	margin-left: 0px;
+	padding-right: 0px;
+	border-right: 0px solid grey;
+	height: 30px;
+}
+}
