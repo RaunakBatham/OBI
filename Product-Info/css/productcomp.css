@@ -137,7 +137,7 @@ td a{
   margin-top: 10px;
 }
 .aboutpage1{
-  height:40%
+  height:40%;
   width:100%;
   position: relative;
 }
@@ -284,6 +284,7 @@ td a{
   width: 200px;
   height: 30px;
   overflow: hidden;
+  background-color: white;
 }
 .part3 #subscribe input{
   width: 140px;
@@ -295,7 +296,7 @@ td a{
   width: 52px;
   border: none;
   border-left: 1px solid grey;
-   height: 30px;
+  height: 30px;
 }
 .part3 label{
   position: relative;
@@ -505,7 +506,7 @@ td a{
   margin-top: 10px;
 }
 .aboutpage1{
-  height:100%
+  height:100%;
   width:100%;
   position: relative;
 }
