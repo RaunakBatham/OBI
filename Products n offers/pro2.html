@@ -3,110 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+   
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+ <script type="text/javascript " src="js/jq.js"></script>
 
   </head>
-  <style>
-
-  div.gallery {
-      margin: 20px 0 20px 20px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 150px;
-  }
-
-  div.gallery:hover {
-      border: 1px solid #777;
-  }
-
-  div.gallery img {
-      width: 100%;
-      height: auto;
-  }
-
-  div.desc {
-      padding: 15px;
-      text-align: center;
-  }
-
-.aa{
-  background-color: lightgray;
-  border:0px;
-}
-.aboutpage{
-  width:100%;
-  height: auto;
-  position: relative;
-  margin-right:100px;
-}
-.aboutleft{
-  width:20%;
-  margin-left: 10px;
-  border:1px solid lightgray;
-  height: auto;
-  position:relative;
-  float: left;
-  padding: 20px;
-}
-.aboutright{
-  width:75%;
-  margin-left: 40px;
-  height: auto;
-  position:relative;
-  float:left;
-}
-
-  </style>
   <body>
-
-<nav class="navbar navbar-inverse aa">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><span style="color:blue;"><b> OffersBazaar</b></span></a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#"><span style="color:blue;">HOME</span></a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="color:blue;">CATEGORIES</span><span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">FASHION</a></li>
-          <li><a href="#">HOUSEHOLD</a></li>
-          <li><a href="#">DAILY NEEDS</a></li>
-        </ul>
-      </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="color:blue;">PRODUCTS</span> <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="color:blue;">FEATURES </span><span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav>
-<span class="glyphicon glyphicon-home"> > FASHION </span> <br><br>
+<span class="glyphicon glyphicon-home"> > Electronic </span> <br><br>
 <div class="aboutpage">
   <div class="aboutleft">
-<b>FASHION <span class="glyphicon glyphicon-chevron-up" style="float:right"></span> </b>
+<b>Electronic <span class="glyphicon glyphicon-chevron-down Electronic" style="float:right"></span> </b>
 <br><br>
-WOMAN <span class="glyphicon glyphicon-plus" style="float:right"></span><br><br>
-JEWELLERY <span class="glyphicon glyphicon-plus" style="float:right"></span><br><br>
-MEN <span class="glyphicon glyphicon-plus" style="float:right"></span><br><br>
-KID'S FASHION <span class="glyphicon glyphicon-plus" style="float:right"></span><br>
+<div class="Electronic_box">
+Mobile <span class="glyphicon glyphicon-plus f1" style="float:right"></span><br><br>
+Tv/LCD <span class="glyphicon glyphicon-plus f2" style="float:right"></span><br><br>
+Laptop <span class="glyphicon glyphicon-plus f3" style="float:right"></span><br><br>
+Other Electronic<span class="glyphicon glyphicon-plus f4" style="float:right"></span><br>
+</div>
 <hr>
-<b>PRICE</b><span class="glyphicon glyphicon-chevron-up" style="float:right"></span><br><br>
-
+<b>PRICE</b><span class="glyphicon glyphicon-chevron-down price" style="float:right"></span><br><br>
+  <div class="price_box">
    <form method="post" action="/action_page_post.php">
      <div data-role="rangeslider">
 
@@ -115,21 +37,26 @@ KID'S FASHION <span class="glyphicon glyphicon-plus" style="float:right"></span>
        <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000" >
      </div>
        <center><input type="submit" data-inline="true" value="Submit"></center>
+     </div>
 <hr>
-<b>COLOR</b><span class="glyphicon glyphicon-chevron-up" style="float:right"></span><br><br>
+<b>COLOR</b><span class="glyphicon glyphicon-chevron-down color" style="float:right"></span><br><br>
+<div class="color_box">
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:red;"></span>
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:blue;"></span>
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:yellow;"></span>
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:black;"></span>
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:cyan;"></span>
 <span class="glyphicon glyphicon-stop" style="font-size:30px; color:green;"></span>
+</div>
 <hr>
-<b>SIZE</b><span class="glyphicon glyphicon-chevron-up" style="float:right"></span><br><br>
+<b>SIZE</b><span class="glyphicon glyphicon-chevron-down size" style="float:right"></span><br><br>
+<div class="size_box">
 <span style="border:1px solid lightgray; height:10px; width:35px; margin: 5px; padding:5px;">S</span>
 <span style="border:1px solid lightgray; height:10px; width:35px; margin: 5px; padding:5px;">M</span>
 <span style="border:1px solid lightgray; height:10px; width:35px; margin: 5px; padding:5px;">L</span>
 <span style="border:1px solid lightgray; height:10px; width:35px; margin: 5px; padding:5px;">XL</span>
 <span style="border:1px solid lightgray; height:10px; width:35px; margin: 5px; padding:5px;">2XL</span>
+</div>
 <br>
 <br>
 <hr>
@@ -282,5 +209,10 @@ KID'S FASHION <span class="glyphicon glyphicon-plus" style="float:right"></span>
 
 </div>
 </div>
+
+
+
+
+<script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
