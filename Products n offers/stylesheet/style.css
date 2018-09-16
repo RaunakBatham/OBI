@@ -53,3 +53,7 @@ body{
   position:relative;
   float:left;
 }
+
+.Electronic:hover, .price:hover, .color:hover, .size:hover {
+  cursor: pointer;
+}
