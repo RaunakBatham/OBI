@@ -28,9 +28,6 @@ if ($(window).width()<600) {
    	$('.menu').show(0);
    }
 
-$(window).resize(function(){
-   
-   if ($(window).width()<600) {
    	$('#ham').show().click(function(){
    		$('#menu-back').show();
    		$('.menu').show(150);
@@ -43,10 +40,8 @@ $(window).resize(function(){
    			$('#menu-back').hide();
    		});
    		// $('#ham').hide();
-   	});
    }
    else{
    	$('.menu').show();
    }
-});
 });
